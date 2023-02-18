@@ -1,0 +1,19 @@
+{
+  "name": "visepoint-extension-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ExtensionManager.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ExtensionManager.js",
+    "start:dev": "node tests/ExtensionManager-DEBUG.js",
+    "process:pack": "node PackExtension.js",
+    "process:unpack": "node UnpackExtension.js"
+  },
+  "author": "Ethan | kitsu#8329",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "chalk": "^5.2.0"
+  }
+}
